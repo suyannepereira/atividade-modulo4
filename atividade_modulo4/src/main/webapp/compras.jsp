@@ -36,10 +36,11 @@
           <div class="collapse navbar-collapse" id="menuNavbar">
             <div class="navbar-nav ms-auto">
               <a href="index.html" class="nav-link active">Home</a>
-              <a href="destino.html" class="nav-link active">Destinos</a>
-              <a href="compras" class="nav-link active">Compras</a>
-              <a href="contato.html" class="nav-link active">Contato</a>
-              <a href="cadastro.html" class="nav-link active">Cadastro</a>
+                      <a href="destino" class="nav-link active">Destinos</a>
+                      <a href="compra" class="nav-link active">Compras</a>
+                      <a href="contato.html" class="nav-link active">Contato</a>
+                      <a href="cadastro.html" class="nav-link active">Cadastro</a>
+                      <a href="cliente" class="nav-link active">Clientes</a>
             </div>
           </div>
         </div>
