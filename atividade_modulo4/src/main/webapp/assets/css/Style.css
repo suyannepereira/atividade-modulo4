@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.sem-preenchimento {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/*form {
+  width: 50%;
+  height: auto;
+  margin: 40px 0;
+  border: 5px solid rgb(83, 202, 206);
+  padding: 20px;
+}*/
+.footer-dimensoes {
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+}
+.titulo-pages {
+  font-family: "PT Sans", sans-serif;
+  font-family: "Inter", sans-serif;
+  font-size: 50px !important;
+  font-weight: 700;
+}
+.form-area{
+  padding-top: 20%;
+}
+.row.single-form{
+  box-shadow: 0 2px 20px -5px rgba(0, 0, 0, 5);
+}
+.left{
+  background: blue;
+  padding: 200px 98px;
+}

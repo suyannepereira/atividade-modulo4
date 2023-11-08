@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.18.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/Style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <title>Home</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-info navbar-dark navbar-expand-sm sticky-top">
+          <div class="container-fluid justify-content-around">
+              <a href="index.html" class="navbar-brand d-flex align-items-center">
+                  <!-- Ícone do Bootstrap Icons -->
+                  <i class="bi bi-airplane-engines fs-4 me-2"></i>AgeTravel
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="menuNavbar">
+                  <div class="navbar-nav ms-auto">
+                      <a href="index.html" class="nav-link active">Home</a>
+                      <a href="destino" class="nav-link active">Destinos</a>
+                      <a href="compras" class="nav-link active">Compras</a>
+                      <a href="contato.html" class="nav-link active">Contato</a>
+                      <a href="cadastro.html" class="nav-link active">Cadastro</a>
+                      <a href="cliente" class="nav-link active">Clientes</a>
+                      
+
+                  </div>
+              </div>
+          </div>
+      </nav>
+  </header>
+
+    <div class="container-fluid sem-preenchimento">
+      <div class="carousel slide" data-bs-ride="carousel" id="ads">
+        <div class="carousel-indicators">
+          <button
+            class="active"
+            data-bs-target="#ads"
+            data-bs-slide-to="0"
+          ></button>
+          <button class="" data-bs-target="#ads" data-bs-slide-to="1"></button>
+          <button class="" data-bs-target="#ads" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img
+              src="assets/image/foto-hipnotizante-da-ponta-da-piedade-um-local-pitoresco-em-portugal.jpg"
+              alt=""
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img
+              src="assets/image/ponte-de-madeira-na-ilha-de-koh-nangyuan-em-surat-thani-tailandia.jpg"
+              alt=""
+              class="d-block w-100"
+            />
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img
+              src="assets/image/bela-praia-tropical-e-mar.jpg"
+              alt=""
+              class="d-block w-100"
+            />
+            <div class="carousel-caption d-none d-md-block"></div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          data-bs-target="#ads"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          data-bs-target="#ads"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-6">
+              <img src="assets/image/aviao.png" alt="Imagem" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+              <h2>Sobre nós</h2>
+              <p>
+                  Bem-vindo à AgeTravel, a sua porta de entrada para aventuras e
+                  experiências incríveis em todo o mundo. Somos uma empresa de viagens
+                  dedicada a transformar os seus sonhos de viagem em realidade. Com
+                  décadas de experiência no setor, nosso compromisso é proporcionar a
+                  você as viagens mais memoráveis e sem preocupações.
+              </p>
+          </div>
+      </div>
+  </div>
+
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-6 order-md-2">
+              <img src="assets/image/contato.png" alt="Imagem" class="img-fluid" />
+          </div>
+          <div class="col-md-6 order-md-1">
+              <h2>Entre em contato</h2>
+              <p>
+                  Atendimento Personalizado: Nossa equipe de especialistas em viagens
+                  está à sua disposição para criar itinerários personalizados que
+                  atendam aos seus desejos e necessidades.
+              </p>
+              <a href="contato.html" class="btn btn-info text-white">Clique aqui</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-6">
+              <img src="assets/image/mapa.png" alt="Imagem" class="img-fluid" />
+          </div>
+          <div class="col-md-6">
+              <h2>Conheça os nossos destinos</h2>
+              <p>
+                  Destinos de Sonho: Escolha entre uma ampla variedade de destinos,
+                  desde praias de areias brancas no Caribe até as maravilhas culturais
+                  da Europa. Seja qual for o seu destino dos sonhos, temos opções para
+                  todos os gostos.
+              </p>
+              <a href="destino.html" class="btn btn-info text-white">Clique aqui</a>
+          </div>
+      </div>
+  </div>
+
+  <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-6 order-md-2">
+              <img src="assets/image/promocao.png" alt="Imagem" class="img-fluid" />
+          </div>
+          <div class="col-md-6 order-md-1">
+              <h2>Conheça as nossas promoções</h2>
+              <p>
+                  Economia Incrível: Nossa promoção oferece descontos exclusivos em
+                  pacotes de viagem, voos e hospedagem. Assim, você pode economizar
+                  enquanto desfruta das férias dos seus sonhos.
+              </p>
+              <a href="promocao.html" class="btn btn-info text-white">Clique aqui</a>
+          </div>
+      </div>
+  </div>
+    <footer class="p-4 bg-info text-light text-center footer-dimensoes">
+      Todos os direitos reservados
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
